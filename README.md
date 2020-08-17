@@ -1,6 +1,6 @@
-# Fedora Pop! OS Toolbox
+# Fedora Pop!_OS Shell
 
-To build Pop! OS components like Pop! Shell for Fedora Linux.
+To build Pop!_OS components like Pop!_OS Shell for Fedora Linux.
 
 ## Build (inside Fedora Toolbox)
 
@@ -27,7 +27,7 @@ This will call `make install` to install it locally into ~/.local/share/gnome-sh
 
 If you want to uninstall the extension, you may invoke make uninstall, and then open the "Keyboard Shortcuts" panel in GNOME Settings to select the "Reset All.." button in the header bar.
 
-# Pop! Shell Keyboard Shortcuts
+# Pop!_OS Shell Keyboard Shortcuts
 
 ## Build (inside Fedora Toolbox)
 
