@@ -1,5 +1,5 @@
 ARG FEDORA_VERSION=33
-FROM registry.fedoraproject.org/f$FEDORA_VERSION/fedora-toolbox
+FROM docker.io/wstein/fedora-toolbox:FEDORA_VERSION
 
 RUN dnf -y update &&\
     dnf -y install make cargo rust gtk3-devel npm &&\
